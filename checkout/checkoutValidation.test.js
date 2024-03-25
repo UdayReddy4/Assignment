@@ -29,14 +29,6 @@ test('If positive quantity is given it will return details', () => {
 
   expect(checkoutValidation(books, quantity, address)).toEqual(orderDetails);
 });
-// test('throws error if no books are selected', () => {
-//   const quantity = [];
-//   const Address = "123 Main St, City, Country";
-
-//   expect(() => {
-//     checkoutValidation([], quantity, Address);
-//   }).toBe("Please select at least one book.");
-// });
 
 test('If negative books is given then return error message', () => {
   const books = [

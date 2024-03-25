@@ -43,6 +43,6 @@ function checkoutValidation(books,quantity,shippingAdress){
 // const bookquantity = [3,5];
 // const Address = "1234455/9876";
 
-// console.log(checkoutValidation(books, bookquantity, Address));
+// console.log(checkoutValidation(books, bookquantity, Address));//outPut of Code
 
 module.exports=checkoutValidation;
