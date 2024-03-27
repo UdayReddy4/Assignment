@@ -1,0 +1,11 @@
+{
+  "name": "se",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sequentialExecutor.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
